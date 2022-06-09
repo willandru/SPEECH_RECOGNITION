@@ -1,0 +1,16 @@
+We want to help a user buy a conmputer on the WEb.The user may want "any PC with more than 6 GHz and 256 GB of disk space for less than $1000".
+
+PRICES: $99.99 $1000 $999.
+/$[0-9]+/
+/$[0-9]+\.[0-9][0-9]/
+/\b$[0-9]+(\.[0-9][0-9])?\b/
+
+SPECIFICATIONS
+/\b[0-9]+ *(MHz|[mM]egahertz|GHz|[Gg]igahertz)\b/
+
+/\b[0-9]+(\.[0-9]+)? *(GB|[Gg]igabytes?)\b/
+
+/\b(Windows *(Vista|XP)?)\b/
+/\b(Mac|Macintosh|Apple|OS X)\b/
+
+

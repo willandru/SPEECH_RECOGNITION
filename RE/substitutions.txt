@@ -1,0 +1,5 @@
+RE substitutions, Memory and ELIZA
+
+s/regexp1/pattern/  : allows a string characterized by a regular expression to be replaced by another string
+
+s/colour/color/
