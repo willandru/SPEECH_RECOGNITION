@@ -1,0 +1,33 @@
+https://www.youtube.com/watch?v=YereI6Gn3bM&ab_channel=TheA.I.Hacker-MichaelPhi
+
+
+
+
+https://www.google.com/search?channel=crow5&client=firefox-b-d&q=deep+spech+2+end-to-end+speech+recognition
+
+
+
+https://towardsdatascience.com/customer-case-study-building-an-end-to-end-speech-recognition-model-in-pytorch-with-assemblyai-473030e47c7c
+
+
+
+CNN:
+
+https://www.youtube.com/watch?v=Qf4YJcHXtcY&ab_channel=Weights%26Biases
+
+https://dl.acm.org/doi/fullHtml/10.1145/3457682.3457703
+
+
+The problem of automatic speech recognition (ASR) is that given a set of audio
+records containing speech, system can obtain the transcripts from these records.
+The general ASR system consists of three components:
+• Feature Extraction: component dedicated to extracting information from raw
+audio recordings
+• Language Model (LM): component in charge of modelling the grammatical
+structure of the language
+• Acoustic Model (AM): component in charge of computing the relationship between
+audio features and linguistic units such as phonemes
+
+
+
+https://www.youtube.com/watch?v=Qf4YJcHXtcY&ab_channel=Weights%26Biases
