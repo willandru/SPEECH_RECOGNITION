@@ -1,0 +1,35 @@
+HACER TUTORIALES:
+#1 DATA ADQUISITION AMD GIT STORAGING
+#2 Audio proccesing with Python 
+#3 DNN, CNN, RNN
+#4 Speech Recognition:Boundary detection, vowel alignment, segmentation, windowing.
+
+			TURTORIAL 1
+
+DATA ADQUISITION AND GIT STORAGE:
+
+OBJECTIVES: - Get familiar with audio data.
+           - Get familiar with git.
+           - Understand the real complexity of taking data(lots of data) to train a Neural Network, to motivate the search for seeking segmentation algorithms and finding new strategies to collect and label data.
+           
+           
+DATA TO BE COLLECTED: a/ e/ i/ o/ u/ /(la,le,li,lo,lu) /(pa, pe, pi, po, pu) /(ar, er, ir, or, ur)
+	Explicacion: Vamos a aprender a reconocer las vocales de una oracion completa, para identificar el timepo en que se pronuncian estas vocales, de esta manera vamos a alinear las silabas para extraer el sonido de las consonantes.
+	Se han escogido 3 letras, L, P,R. Con ellas buscamos alinear las vocales y segmentar la silaba de la letra para poder tener un set de entrenamiento con los FONEMAS de cada letra.
+	Las letras escogidas permiten formar el nombre del robot "Peper"
+           
+STEPS:
+	-Download the app (choosen)
+	- Take samples of vowels and two letter syllabes 
+	- Try to collect data in a natural way. Don't worry for the background noise in fact it is usefull to add some variation to the data. Use different entonations, change your moood, elevate your voice,use differents hours of the day, decrease your voice, elongate the sounds and also strike them, in order to capture enough data repressentative of all the possible variations we need orders of thousands of data. To give you a number 10.000 samples yould be enough to see a statistical significative response. thopudg the number of data can be much more higger or lower, I dont know. Thats why, we are gonna try at least to collect 1.000 samples of a single syllabe per person. 
+	- Git clone speech-recognition-and-processing
+	- git status : verificamos la rama actual en la que estamos
+	- git checkout data
+	- cd/DATA/VOWELS
+	- Once you've collected some audios of the fisrt vowel or syllabe, please find a way to rename all the files in the following format  "A_WG_1.a4m" "LA_WG_2.a4m" .
+	- PLace the samples taken EVERY DAY in the right folder.
+	- Push your data collected every day.
+	
+
+
+       	
