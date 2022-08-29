@@ -31,5 +31,87 @@ STEPS:
 	- Push your data collected every day.
 	
 
+	Tutorial 2
+
+	-- Look at the jupyter notebook
+
+	TUTORIAL 3
+
+	-The idea is to create a neural network that can learn and recognize the pattern of the 5 spanish vowels sound.
+
+	- The neural network must be trained in a supervised way using the dataset VOWELS that we are collecting.
+
+	The VOWEL data set contains the actual phonems of the spanish vowels. We want to learn to recognize the patterns that makes each vowel to be able to spot them latter in future words.
+
+	So as you have seen the sound is a 1-D vector, data points taken at a specific frecuency in a fixed length of time, nontheless we can transform this vector to create a 3D image representation of the sound. It represents a secuecial set of points (recurrent).
+
+
+	We are going to investigate Deep Neural Networks or DNN, Convolutional Neural Networks or CNN and Recurrent Neural Networks or RNN. 
+
+	DNN
+
+	They represent the typical architecture of a neural network, linear perceptrons ordered by input layer, hidden layers and output layer, we can make fully-connected layers or partially connected ones. We can use them to explore the fundamentals of neural networks
+
+	CNN
+
+	A very important architecture for analysing images the can be used for medical diagnostics, computer vision and anything related with an images, so it is of our interes to explore these architecture for speech recognition.
+
+	RNN
+
+	Recurrent neural networks, they suffer the problem of not been able to parallization therefore its trainig takes longer. THis is because of the nature of the neural architecture where a single perceptron takes the sequential input and retroaliments to itself and then passes ists output to the next perceptron secuentially. So these architecture has allowed us to model time-series data like speech very efectivelly.
+
+
+	TUTORIAL 4
+
+
+			VOWEL RECOGNITION NEURAL NETWORK USED FOR ALIGNING TEXT TO SPEECH  AND SEGMENTATION OF PHONEMS FROM SYLLABES TO ATUOMATICALLY CREATE A DATASET OF SPANISH PHONEMS.
+
+	Abstract.
+
+	By creating a dataset of vowel phonems collected by our selfs or found in the internet we want to create a simple neural network architecture than can recognize the pattern of a vowel.The architecture would be succsesfull if given an audio file with several words it can spot all the vowels correctlly. Once this is set up, we want to use this neural network to spot the vowels of syllabes containing the PHONEMS of the lleters of spanish, but we can also use it to try to label data from internet datasets in a phonem-based way. It means that we want to get a final dataset whit the phonems of the spanish language. 
+
+
+DATASETS:
+
+VOWEL-DATASET: is a dataset containing 5 folders each labeled with a vowel. These are the phonems of the spanish vowels.
+
+SYLLABES-DATASET: It's a dataset containing as many folders as syllabes collected, the idea is to have all the possible phonems of the spanish language represented in those syllabes.
+
+PHONEM-DATASET: Its a dataset containig the VOWEL-dataset and also has all the PHEMS of the LETTERS of the alphabet. It represents short fragments of audio with the phonems.
+
+INTERNET-DATASETS: They allow neural networks to learn whole words and therefore the data needed to create an Automatic Speech REcognition (ASR) system is data-expensive and computing-expensive as well. It would be more useful to be able to segment these data into its phonems, to create a huge data set that can train a network to recognize the fundamenta unit of spanish speech. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
        	
