@@ -33,6 +33,8 @@ def get_data_splits(data_path, test_size=0.1, test_validation=0.1):
 	#convert inputs from 2D to 3D
 	# (#segments, 13) --> (#segments, 13, 1)
 	X_train = X_train[..., np.newaxis]
+	X_validation = X_validation[..., np.newaxis]
+	X_test = X_test[..., np.newaxis]
 
 	return X_train, X_validation, X_test, y_train, y_validation, y_test
 
@@ -81,7 +83,7 @@ def main():
 	model= build_model(input_shape, LEARNING_RATE)
 
 	#train the model
-	model.fit(X_train, y_train, epochs=EPOCHS, batch_size=BATCH_SIZE, validation_data=(X_validation,y_validation))
+	history = model.fit(X_train, y_train, epochs=EPOCHS, batch_size=BATCH_SIZE, validation_data=(X_validation,y_validation))
 
 	test_error, test_accuracy = model.evaluate(X_test, y_test)
 	print(f"Test error: {test_error}, test_accuracy: {test_accuracy}")
